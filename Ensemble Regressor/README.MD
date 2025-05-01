@@ -34,6 +34,7 @@ Desenvolver e comparar modelos de regressão baseados em técnicas de ensemble p
 O arquivo `dataset_armageddon_final_corrected.csv` contém variáveis de entrada (preditoras) e a variável-alvo `tempo_armageddon_s`.
 
 As colunas categóricas foram convertidas para o tipo `category` e codificadas numericamente para utilização em modelos de machine learning.
+
 ---
 
 ### 🧾 Dicionário de Dados
