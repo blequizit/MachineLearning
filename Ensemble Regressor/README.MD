@@ -100,6 +100,8 @@ predicoes = modelo.predict(X_test)
 Autor: Eduardo Ferreira  
 Email: eduds1010@gmail.com
 
+---
+
 ## Agradecimento
 
 Agradecimento ao professor Leandro Romualdo da Silva ministrou aulas sobre o conteúdo.
