@@ -2,7 +2,9 @@
 
 Este repositório contém um projeto de regressão linear aplicada ao dataset `dataset_armageddon_final_corrected.csv`. O objetivo do projeto é construir um modelo de regressão simples e múltipla para entender a relação entre variáveis explicativas e a variável dependente.
 
-🎯 **Objetivo**
+---
+
+##🎯 **Objetivo**
 
 O projeto visa:
 
@@ -10,13 +12,17 @@ O projeto visa:
 - Avaliar a performance do modelo utilizando métricas como R² e p-values.
 - Realizar transformações em variáveis categóricas para otimizar o modelo.
 
-📁 **Estrutura do Repositório**
+---
+
+##📁 **Estrutura do Repositório**
 
 - `Regressão Simples.ipynb`: Notebook contendo todo o processo de análise e construção dos modelos de regressão.
 - `dataset_armageddon_final_corrected.csv`: Dataset utilizado para construir o modelo.
 - `README.md`: Este arquivo com explicações sobre o projeto.
 
-📊 **Etapas Realizadas**
+---
+
+##📊 **Etapas Realizadas**
 
 1. **Leitura dos Dados**
    - Carregamento do dataset utilizando o `pandas`.
@@ -42,7 +48,9 @@ O projeto visa:
    - Gráficos de dispersão e reta de regressão para a análise da relação entre variáveis.
    - Visualização do impacto das variáveis explicativas sobre o tempo do armageddon.
 
-🛠️ **Bibliotecas Utilizadas**
+---
+
+##🛠️ **Bibliotecas Utilizadas**
 
 - `pandas`
 - `numpy`
@@ -51,7 +59,9 @@ O projeto visa:
 - `statsmodels`
 - `sklearn`
 
-📂 **Requisitos**
+---
+
+##📂 **Requisitos**
 
 Para rodar o código, instale as bibliotecas necessárias com o seguinte comando:
 
