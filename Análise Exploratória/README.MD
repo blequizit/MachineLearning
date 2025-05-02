@@ -14,7 +14,6 @@ Realizar uma análise inicial dos dados contidos no arquivo `dataset_armageddon_
 - Analisar correlações entre variáveis numéricas
 - Observar relações entre variáveis através de gráficos bivariados
 - Gerar um relatório automático com o `pandas_profiling`
-- Criar uma estrutura base de controle financeiro com `pandas` e `xlsxwriter`
 
 ---
 
