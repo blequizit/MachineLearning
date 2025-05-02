@@ -1,56 +1,55 @@
-# Regressão Simples
+# 📊 Regressão Simples
 
-Este repositório contém um projeto de regressão linear aplicada ao dataset `dataset_armageddon_final_corrected.csv`. O objetivo do projeto é construir um modelo de regressão simples e múltipla para entender a relação entre variáveis explicativas e a variável dependente.
+Este repositório contém um projeto de regressão linear aplicada ao dataset `dataset_armageddon_final_corrected.csv`, com foco em entender a relação entre variáveis explicativas e a variável dependente através de modelos de regressão simples e múltipla.
 
 ---
 
-##🎯 **Objetivo**
+## 🎯 Objetivo
 
-O projeto visa:
+O objetivo deste projeto é:
 
-- Aplicar técnicas de regressão linear simples e múltipla.
+- Construir um modelo de regressão linear simples para prever o tempo de armageddon a partir da potência.
+- Expandir o modelo para regressão linear múltipla com outras variáveis explicativas.
 - Avaliar a performance do modelo utilizando métricas como R² e p-values.
-- Realizar transformações em variáveis categóricas para otimizar o modelo.
+- Realizar transformações em variáveis categóricas para otimizar a modelagem.
+- Visualizar os resultados através de gráficos de dispersão e reta de regressão.
 
 ---
 
-##📁 **Estrutura do Repositório**
+## 📁 Estrutura do Repositório
 
-- `Regressão Simples.ipynb`: Notebook contendo todo o processo de análise e construção dos modelos de regressão.
-- `dataset_armageddon_final_corrected.csv`: Dataset utilizado para construir o modelo.
+- `Regressão Simples.ipynb`: Notebook contendo todo o processo de construção e avaliação do modelo de regressão.
+- `dataset_armageddon_final_corrected.csv`: Dataset utilizado para treinar os modelos de regressão.
 - `README.md`: Este arquivo com explicações sobre o projeto.
 
 ---
 
-##📊 **Etapas Realizadas**
+## 📊 Etapas Realizadas
 
-1. **Leitura dos Dados**
-   - Carregamento do dataset utilizando o `pandas`.
-   - Visualização de amostras e resumo das variáveis.
+### 📌 Leitura e Preparação dos Dados
+- Leitura do dataset com `pandas`.
+- Visualização de amostras do dataset utilizando `df.sample()`.
+- Transformação de variáveis categóricas com `LabelEncoder`.
 
-2. **Regressão Linear Simples**
-   - Definição da variável dependente (`tempo_armageddon_s`) e independente (`potencia`).
-   - Ajuste do modelo de regressão linear simples utilizando `statsmodels`.
-   - Análise do resumo estatístico e gráficos.
+### 📌 Construção do Modelo de Regressão Linear Simples
+- Definição da variável dependente (`tempo_armageddon_s`) e da variável independente (`potencia`).
+- Treinamento do modelo de regressão linear simples utilizando `statsmodels`.
+- Análise do resumo estatístico e visualização do modelo com gráficos.
 
-3. **Teste de Significância**
-   - Teste F para avaliar a significância global do modelo.
-   - Teste de significância para os coeficientes das variáveis preditoras.
+### 📌 Testes de Significância
+- Aplicação do Teste F para avaliar a significância global do modelo.
+- Análise dos p-values dos coeficientes para testar a significância das variáveis explicativas.
 
-4. **Regressão Linear Múltipla**
-   - Expansão do modelo para incluir múltiplas variáveis explicativas como `peso` e `potencia`.
-   - Ajuste e avaliação do modelo de regressão múltipla.
+### 📌 Construção do Modelo de Regressão Linear Múltipla
+- Expansão do modelo para incluir múltiplas variáveis explicativas como `peso` e `potencia`.
+- Treinamento do modelo de regressão linear múltipla e análise de resultados.
 
-5. **Transformação de Variáveis Categóricas**
-   - Conversão de variáveis categóricas utilizando `LabelEncoder` para inclusão no modelo.
-
-6. **Visualização**
-   - Gráficos de dispersão e reta de regressão para a análise da relação entre variáveis.
-   - Visualização do impacto das variáveis explicativas sobre o tempo do armageddon.
+### 📌 Visualizações
+- Gráficos de dispersão e linha de regressão para observar as relações entre variáveis.
 
 ---
 
-##🛠️ **Bibliotecas Utilizadas**
+## 🛠️ Bibliotecas Utilizadas
 
 - `pandas`
 - `numpy`
@@ -61,9 +60,7 @@ O projeto visa:
 
 ---
 
-##📂 **Requisitos**
-
-Para rodar o código, instale as bibliotecas necessárias com o seguinte comando:
+## 📂 Requisitos
 
 ```bash
 pip install pandas numpy matplotlib seaborn statsmodels scikit-learn
