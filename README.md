@@ -1,4 +1,4 @@
-# 🤖 Projetos de Machine Learning
+#  Projetos de Machine Learning
 
 Este repositório contém diversos projetos de Machine Learning e Análise de Dados desenvolvidos em Python. Cada pasta apresenta um estudo específico com dataset, notebook e README próprios.
 
