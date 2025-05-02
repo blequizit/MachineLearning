@@ -18,13 +18,6 @@ Desenvolver e comparar modelos de regressão baseados em técnicas de ensemble p
 
 - `Ensemble Regressor.ipynb`: Notebook com todo o pipeline de Machine Learning.
 - `dataset_armageddon_final_corrected.csv`: Base de dados com variáveis utilizadas no modelo.
-- Modelos `.pkl`: Arquivos serializados contendo os modelos treinados:
-  - `lgbm_model.pkl`
-  - `rf_model.pkl`
-  - `et_model.pkl`
-  - `gbm_model.pkl`
-  - `xgb_model.pkl`
-  - `ada_model.pkl`
 - `README.md`: Este arquivo com explicações sobre o projeto.
 
 ---
